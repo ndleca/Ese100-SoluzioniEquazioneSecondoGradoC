@@ -8,6 +8,8 @@ int main(int argc, char** argv)
 {
     float a, b, c, rdelta;
     complexNumber x1, x2;
+    printf("questo programma risolve le equazioni di secondo grado\n");
+    printf("ax^2 +o- bx +o- c");
     printf("Inserisci il coefficiente di x^2: ");
     scanf("%f", &a);
     printf("Inserisci il coefficiente di x: ");
